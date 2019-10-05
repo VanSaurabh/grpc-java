@@ -1,4 +1,4 @@
-package com.github.vansaurabh.grpc.greeting.server;
+package com.github.vansaurabh.grpc.greeting.service;
 
 import com.proto.greet.GreetRequest;
 import com.proto.greet.GreetResponse;
