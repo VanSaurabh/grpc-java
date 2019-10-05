@@ -1,6 +1,6 @@
 package com.github.vansaurabh.grpc.server;
 
-import com.github.vansaurabh.grpc.greeting.server.GreetServiceImpl;
+import com.github.vansaurabh.grpc.greeting.service.GreetServiceImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 

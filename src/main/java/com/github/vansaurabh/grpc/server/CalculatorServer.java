@@ -1,7 +1,6 @@
 package com.github.vansaurabh.grpc.server;
 
-import com.github.vansaurabh.grpc.calculator.server.CalculatorServiceImpl;
-import com.github.vansaurabh.grpc.greeting.server.GreetServiceImpl;
+import com.github.vansaurabh.grpc.calculator.service.CalculatorServiceImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 

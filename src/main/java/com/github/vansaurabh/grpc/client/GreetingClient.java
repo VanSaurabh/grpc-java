@@ -9,7 +9,7 @@ public class GreetingClient {
     public static void main(String[] args) {
         System.out.println("Hello This is gRPC client");
 
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).build();
+        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
         //creating stub
         /*
           synchronous stub
@@ -20,6 +20,8 @@ public class GreetingClient {
          */
         //DummyServiceGrpc.DummyServiceFutureStub asyncClient = DummyServiceGrpc.newFutureStub(channel);
         System.out.println("Shutting down channel");
+
+
         channel.shutdown();
     }
 }
