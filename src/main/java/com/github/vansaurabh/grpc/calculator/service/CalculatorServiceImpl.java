@@ -1,4 +1,4 @@
-package com.github.vansaurabh.grpc.calculator.server;
+package com.github.vansaurabh.grpc.calculator.service;
 
 import com.proto.calculator.Calculator;
 import com.proto.calculator.CalculatorRequest;
