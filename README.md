@@ -1,5 +1,5 @@
 # gRPC-java
-This is a gRPC project in Java. Several gRPC services have been implemented in java
+This is a simple gRPC project in Java. Several gRPC services have been implemented in java
 
 # Technology stack
 
