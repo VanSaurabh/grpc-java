@@ -7,6 +7,7 @@ This is a simple gRPC project in Java. Several gRPC services have been implement
 Java 8
 Gradle
 gRPC
+Protocol Buffers
 ```
 # APIs Implemented
 
